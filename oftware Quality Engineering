@@ -1,0 +1,111 @@
+A Guide to Software Quality Engineering by Shravan Pargaonkar-2024
+
+Components of a Test Automation Framework:
+
+•Cucumber (BDD Framework)
+• Selenium WebDriver
+•TestNG
+
+
+Performance Testing Tools :
+
+•Apache JMeter:
+•LoadRunner
+•Apache Benchmark (ab):
+•BlazeMeter:including load testing, stress testing, and scalability testing
+•NeoLoad :offers load testing, stress testing, and performance testing
+
+Security Testing Tools :
+
+•OWASP Zed Attack Proxy (ZAP)
+•Wireshark
+•Open Vulnerability Assessment System (OpenVAS)
+•Nexpose:
+•AppScan: 
+•Netsparker:
+•Veracode:
+•Snort
+•Detectify
+•Rapid7 InsightVM
+
+Usability Testing Tools:
+
+• UserTesting
+• Crazy Egg
+• Optimal Workshop
+• UsabilityHub
+• Lookback
+• Loop11
+• Morae
+• Usabilla
+• Validately
+• TryMyUI
+• Userlytics
+• Helio
+
+
+
+CI Tools :
+
+• Jenkins
+• Travis CI
+• Circle CI
+• GitLab CI/CD
+• Bamboo
+• GitHub Actions
+• GitLab Runner:
+• Jenkins X
+• Code ship
+• Semaphore
+• Bitrise
+• Jenkins Pipelines
+• Drone
+
+
+Static Analysis Tools:
+
+• Checkstyle
+• PMD
+• ESLint
+• Find Bugs
+• Cppcheck
+• Bandit
+• Infer
+• Coverity
+• Klocwork
+• CodeSonar
+• Fortify
+• Coveralls
+• JSHint
+• Snyk
+
+Defect Tracking Tools:
+
+• Jira
+• Bugzilla
+• Trello
+• Redmine
+• Asana
+• YouTrack
+• MantisBT
+• GitHub Issues
+• GitLab Issues
+• Microsoft Azure DevOps
+• Zoho BugTracker
+• Freshdesk
+
+
+Deployment Techniques :
+
+• Manual Deployment
+• Continuous Deployment
+• Continuous Delivery
+• Blue–Green Deployment:
+• Canary Deployment
+• Feature Toggles (Feature Flags)
+• Rolling Deployment
+• Dark Launching
+• A/B Testing: 
+• Rollback and Rollforward
+• Immutable Infrastructure
+• Serverless Deployment
