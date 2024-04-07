@@ -4,8 +4,7 @@
     <th>Row</th>
     <th>Book</th>
     <th>Descryption</th>
-     <th>Cover</th>
-    <th>Link</th>
+     <th>Cover And Link</th>
   </tr>
 <tr>
  <td> 1 </td>
@@ -33,12 +32,11 @@ The book features the following points: </br>
 </td>
 
 <td>
-    <a href="default.asp"><img src="https://m.media-amazon.com/images/I/61dvMaAzdNL._SY466_.jpg" alt=" A Guide to Software Quality Engineerin" </a>
+    <a href="https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416"><img src="https://m.media-amazon.com/images/I/61dvMaAzdNL._SY466_.jpg" alt=" A Guide to Software Quality Engineerin" </a>
 
   </td
 
-   <td>
-   </td>
+ 
  </tr>
 
 
