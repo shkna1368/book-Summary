@@ -33,7 +33,7 @@ The book features the following points: </br>
 
 
    <td>
-   book links: https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416
+  https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416
      </td>
  </tr>
 
