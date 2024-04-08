@@ -13,6 +13,276 @@ The book features the following points:
 • Defect Management and Root Cause Analysis
 • Release and Deployment Management 
 
+Level of Software Testing:Unit Testing-Integration Testing-System Testing-Acceptance Testing 
+• Unit Testing
+Unit testing focuses on testing individual components or units of the
+software in isolation. It verifies the correctness of code at the lowest
+level and helps identify defects early in the development process.
+
+• Integration Testing
+Integration testing verifies the interaction and communication
+between different units or components of the software. It ensures
+that the integrated system functions as expected and that the units
+work together seamlessly.
+
+• System Testing
+System testing examines the behavior of the entire software system as
+a whole. It validates that the system meets functional and nonfunctional requirements and ensures proper integration with external
+components and interfaces.
+
+• Acceptance Testing
+Acceptance testing is performed to validate whether the software
+meets the requirements and expectations of the end-users or stakeholders. It assesses the software’s fitness for purpose and
+determines if it is ready for deployment. 
+
+
+
+
+Testing Techniques and Strategies :Black Box Testing-White Box Testing-Gray Box Testing-Regression Testing.
+
+• Black Box Testing
+Black box testing focuses on validating the software’s external
+behavior without considering its internal structure or implementation
+details. Test cases are designed based on functional requirements,
+and inputs and expected outputs are analyzed.
+
+• White Box Testing
+White box testing, also known as structural testing, examines the
+internal structure of the software. It verifies the correctness of code,
+checks the flow of control, and analyzes the execution paths.
+Techniques such as statement coverage, branch coverage, and path
+coverage are used.
+
+• Gray Box Testing
+Gray box testing combines elements of black box and white box
+testing. Testers have partial knowledge of the internal structure,
+allowing them to design tests that cover specific areas of interest. It
+combines the advantages of both techniques.
+
+• Regression Testing
+Regression testing ensures that changes or additions to the software
+do not introduce new defects or disrupt existing functionality. It
+retests previously tested features and verifies that the software still
+behaves as intended after modifications. 
+
+
+
+Test Case Design Technique:Equivalence Partitioning- Boundary Value Analysis-Decision Table Testing-State Transition Testing-Pairwise Testing (Combinatorial Testing)-Use Case Testing-Error Guessing-Random Testing-Exploratory Testing-Regression Testing
+
+
+• Equivalence Partitioning: This technique divides input values
+into classes or partitions that are expected to behave similarly.
+Test cases are then designed to cover representative values
+from each partition. For example, if an input field accepts
+values from 1 to 100, test cases might include values like 1,
+50, and 100.
+
+• Boundary Value Analysis: Boundary value analysis focuses on
+values at the edges of equivalence partitions. Test cases are
+designed to test both the valid and invalid boundary values.
+For example, if a password field requires 8 to 16 characters,
+test cases might include passwords with exactly 8, 16, and 9
+characters.
+• Decision Table Testing: Decision tables map combinations
+of conditions and their corresponding actions or outcomes.
+Test cases are designed to cover various combinations of
+conditions and validate the expected outcomes. This technique is useful for testing business rules and complex
+decision-making processes.
+
+• State Transition Testing: This technique is employed when
+the software system has different states and transitions
+between them. Test cases are designed to cover various state
+transitions and ensure that the software behaves correctly
+during these transitions. 
+Pairwise Testing (Combinatorial Testing): Pairwise testing
+selects a combination of input values that test all possible
+pairs of input values. It aims to minimize the number of test
+cases while maximizing the coverage of interactions between
+input variables.
+
+• Use Case Testing: Use case testing involves designing test
+cases based on user scenarios or interactions with the software. It ensures that the software behaves as intended in realworld usage scenarios.
+
+• Error Guessing: Error guessing relies on the tester’s experience and intuition to anticipate potential defects and design
+test cases to expose those defects. This technique is particularly useful when there is limited documentation or time for
+formal test design.
+
+• Random Testing: Random testing involves generating
+random inputs and executing test cases without specific
+scenarios. It can help identify unexpected defects that might
+not be uncovered through other techniques.
+
+• Exploratory Testing: Exploratory testing is a dynamic
+approach where testers explore software applications while
+testing. Test cases are created on the fly based on the tester’s
+intuition and observations, allowing for uncovering defects
+through ad-hoc exploration.
+
+• Regression Testing: Regression testing involves designing
+test cases to verify that new code changes do not introduce
+defects or regressions in existing functionality. It ensures that
+the previous working features continue to work as expected. 
+
+
+
+Test Levels and Types :Functional Testing-Non-Functional Testing-Regression Testing-Security Testing-Usability Testing-Compatibility Testing-Exploratory Testing-Performance Testing
+
+• Functional Testing: Functional testing verifies that the
+software functions according to its requirements. It involves
+testing individual functions, features, and user interactions to
+ensure they perform as expected.
+
+• Non-Functional Testing: Non-functional testing focuses on
+aspects beyond functionality, such as performance, security,
+usability, and compatibility. This includes testing how the
+software handles stress, security vulnerabilities, and user
+experience.
+
+• Regression Testing: Regression testing ensures that new code
+changes do not introduce defects or negatively impact
+existing functionality. It involves retesting existing features
+to catch regressions.
+
+• Security Testing: Security testing identifies vulnerabilities
+and weaknesses in the software that could lead to security
+breaches. It ensures that the software can withstand various
+types of attacks.
+
+• Usability Testing: Usability testing evaluates the software’s
+user-friendliness, ease of use, and overall user experience. It
+ensures that the software is intuitive and meets user
+expectations.
+
+• Compatibility Testing: Compatibility testing checks how the
+software functions across different devices, browsers, operating systems, and network environments. It ensures consistent performance on various platforms.
+
+• Exploratory Testing: Exploratory testing involves testers
+exploring software and using their creativity to uncover
+defects. It relies on testers’ intuition and experience to
+identify unexpected issues.
+
+• Performance Testing: Performance testing assesses the software’s responsiveness, scalability, and stability under varying
+load conditions. It includes load testing, stress testing, and
+performance profiling. Performance testing encompasses a
+diverse range of techniques that evaluate a software system’s
+responsiveness, scalability, stability, and resource utilization.
+Unlike functional testing, which focuses on the correctness of
+software behavior, performance testing addresses how well an
+application can handle real-world usage scenarios. By subjecting applications to controlled loads and stress levels,
+performance testing identifies potential bottlenecks, uncovers
+system limitations, and offers a clear understanding of how
+the software behaves in production-like environments.
+
+
+
+
+Performance Testing Methodologies:Load Testing-Stress Testing- Scalability Testing-Endurance Testing-Spike Testing-Volume Testing-Concurrency Testing-Isolation Testing-Configuration Testing- Real-User Monitoring (RUM)
+
+• Load Testing: Load testing involves subjecting a software
+system to varying levels of user load to evaluate its
+response times, resource utilization, and overall performance under different usage scenarios. This methodology
+helps identify performance bottlenecks, such as slow
+response times or server crashes, that might emerge as
+user traffic increases.
+
+• Stress Testing: Stress testing takes performance evaluation
+a step further by pushing the application to its limits or
+beyond. By applying extreme loads, stress testing reveals
+how the system behaves when resources are scarce,
+database connections are saturated, or hardware components are under strain. This methodology uncovers potential failure points and helps assess system recovery
+mechanisms.
+
+• Scalability Testing: Scalability testing aims to determine
+how well a software system can handle increased loads by
+adding more resources, such as servers or virtual machines.
+It assesses whether the application’s performance scales
+linearly with added resources or if diminishing returns or
+bottlenecks emerge. This methodology is crucial for planning capacity upgrades.
+
+• Endurance Testing: Endurance testing, also known as soak
+testing, involves subjecting an application to a sustained
+load for an extended period. This methodology helps
+uncover memory leaks, resource depletion, and other
+performance degradation issues that might only surface
+after prolonged usage.
+
+• Spike Testing: Spike testing examines the application’s
+response to sudden and extreme increases in user load. It
+simulates scenarios where user traffic spikes unexpectedly, as
+might occur during a product launch or breaking news event.
+This methodology assesses how well the system handles rapid
+fluctuations in demand.
+
+• Volume Testing: Volume testing focuses on evaluating the
+system’s performance when dealing with large volumes of
+data. It helps identify database performance issues, data
+62 A GUIDE TO SOFTWARE QUALITY ENGINEERING
+handling bottlenecks, and potential data corruption problems
+that could arise as data grows.
+
+• Concurrency Testing: Concurrency testing assesses the
+system’s ability to handle multiple simultaneous users or
+transactions effectively. It helps identify issues related to data
+integrity, resource contention, and synchronization that
+might emerge in multi-user environments.
+• Isolation Testing: Isolation testing involves testing individual
+components or subsystems in isolation to assess their
+performance characteristics independently. This methodology helps pinpoint performance bottlenecks at a granular
+level, aiding in targeted optimizations.
+
+• Configuration Testing: Configuration testing evaluates the
+application’s performance under different configurations,
+such as varying hardware setups, network conditions,
+or software versions. This methodology provides insights
+into the impact of different configurations on overall
+performance.
+
+• Real-User Monitoring (RUM): RUM involves collecting and
+analyzing performance data from actual users’ interactions
+with the application. This methodology offers real-world
+insights into user experience, enabling optimization based on
+genuine usage patterns.
+
+
+
+
+
+
+
+Test Techniques and Tools:
+
+• Test Management Tools: Test management tools help
+manage and organize test cases, test plans, and test execution.
+They track testing progress, generate reports, and facilitate
+collaboration among team members.
+
+• Automated Testing Tools: Automated testing tools automate the execution of test cases, reducing manual effort and
+increasing testing efficiency. They are particularly useful for
+regression testing and repetitive tasks.
+
+• Load Testing Tools: Load testing tools simulate heavy user
+traffic to evaluate how the software performs under load.
+They help identify performance bottlenecks and ensure the
+software can handle expected user loads.
+
+• Security Testing Tools: Security testing tools scan the
+software for vulnerabilities, security weaknesses, and potential threats. They assist in identifying security issues before
+deployment.
+
+• Performance Monitoring Tools: Performance monitoring
+tools track and analyze the software’s performance in realtime, providing insights into system behavior, resource usage,
+and response times. 
+
+• Code Analysis Tools: Code analysis tools review the
+source code for coding standards violations, potential
+defects, and adherence to best practices. They assist in
+ensuring code quality.
+
+• Test Data Management Tools: Test data management tools
+help create, manage, and maintain test data sets for testing
+purposes. They ensure that test data is consistent, representative, and relevant
+
+
 
 Components of a Test Automation Framework:
 
