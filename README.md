@@ -9,8 +9,6 @@
 <tr>
  <td> 1 </td>
 
-  [a relative link](1-Software Quality Engineering.txt)
-
 
    
  <td>  <a href="1-Software%20Quality%20Engineering.txt"> A Guide to Software Quality Engineering </a> </td>
