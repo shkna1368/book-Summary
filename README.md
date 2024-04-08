@@ -13,7 +13,7 @@
 
 
    
- <td> [a A Guide to Software Quality Engineering] (book-Summary/blob/main/1-Software%20Quality%20Engineering.txt)) </td>
+ <td> [a A Guide to Software Quality Engineering] (https://github.com/shlna1368/book-Summary/blob/main/1-Software%20Quality%20Engineering.txt)) </td>
 
  
 
