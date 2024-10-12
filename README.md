@@ -28,7 +28,7 @@ The book features the following points: </br>
 • Release and Deployment Management  </br>
 </td>
   
-</td>
+
 
 <td>
     <a href="https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416"><img src="https://m.media-amazon.com/images/I/61dvMaAzdNL._SY466_.jpg" alt=" A Guide to Software Quality Engineerin" </a>
@@ -47,7 +47,6 @@ The book features the following points: </br>
    
   <td>  <a href="1-Software%20Quality%20Engineering.txt"> Java complete refrence 13 edition </a> </td>
 
-  <td>  <a href="2-Software%20Quality%20Engineering.txt">Java complete refrence 13 edition </a> </td>
    <td> 
 This book is a comprehensive guide to the Java language, describing its
 syntax, keywords, and fundamental programming principles. Significant
