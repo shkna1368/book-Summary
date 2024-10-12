@@ -1,0 +1,449 @@
+More Utility Classes:
+StringTokenizer
+Optional:offer a way to handle situations in which
+a value may or may not be present. In the past, you would normally use the
+value null to indicate that no value is present. However, this can lead to
+null pointer exceptions if an attempt is made to dereference a null
+reference
+
+Date
+Calendar:The abstract Calendar class provides a set of methods that allows you to
+convert a time in milliseconds to a number of useful components. Some
+examples of the type of information that can be provided are year, month,
+day, hour, minute, and second.
+
+Locale
+The Locale class is instantiated to produce objects that describe a
+geographical or cultural region. It is one of several classes that provide you
+with the ability to write programs that can execute in different international
+environments. For example, the formats used to display dates, times, and
+numbers are different in various regions.
+
+Random
+The Random class is a generator of pseudorandom numbers
+
+
+Timer and TimerTask
+An interesting and useful feature offered by java.util is the ability to
+schedule a task for execution at some future time.
+
+Currency:The Currency class encapsulates information about a currency. 
+
+Formatter:It provides format conversions that let you display numbers, strings,
+and time and date in virtually any format you like
+
+
+Scanner:Scanner is the complement of Formatter. It reads formatted input and
+converts it into its binary form. Scanner can be used to read input from the
+console, a file, a string, or any source that implements the Readable
+interface or ReadableByteChannel.
+
+java.util.function:
+
+The java.util.function package defines several predefined functional
+interfaces that you can use when creating lambda expressions or method
+references.
+
+--------------------------------------------------------------------------------------------------------------
+Exception Handling
+A Java exception is an object that describes an exceptional (that is, error)
+condition that has occurred in a piece of code.
+Java exception handling is managed via five keywords: try, catch,
+throw, throws, and finally.
+Exception Types
+All exception types are subclasses of the built-in class Throwable. Thus,
+Throwable is at the top of the exception class hierarchy. Immediately
+below Throwable are two subclasses that partition exceptions into two
+distinct branches. One branch is headed by Exception. This class is used
+for exceptional conditions that user programs should catch. 
+The other branch is topped by Error, which defines exceptions that are
+not expected to be caught under normal circumstances by your program.
+Exceptions of type Error are used by the Java run-time system to indicate
+errors having to do with the run-time environment itself.
+Java’s Built-in Exceptions:
+
+-------------
+
+Multithreaded Programming:A
+multithreaded program contains two or more parts that can run
+concurrently
+
+In a thread-based multitasking environment, the thread is the smallest
+unit of dispatchable code. This means that a single program can perform
+two or more tasks simultaneously.
+You can implement the Runnable interface.
+• You can extend the Thread class itself
+
+Virtual Threads:
+The number
+of virtual Java threads an application can create is no longer limited to the
+number of OS threads available to Java.
+
+The companion to ofVirtual( ) is the static Thread method ofPlatform(
+)
+
+---------------------------
+Type Wrappers
+Despite the performance benefit offered by the primitive types, there are
+times when you will need an object representation. For example, you can’t
+pass a primitive type by reference to a method. Also, many of the standard
+data structures implemented by Java operate on objects, which means that
+you can’t use these data structures to store primitive types. To handle these
+(and other) situations, Java provides type wrappers, which are classes that
+encapsulate a primitive type within an object.
+
+--------------
+Autoboxing
+
+Integer iOb = 100; // autobox an int
+int i = iOb; // auto-unbox
+
+--------------------
+Annotations
+Java provides a feature that enables you to embed supplemental
+information into a source file. This information, called an annotation, does
+not change the actions of a program. Thus, an annotation leaves the
+semantics of a program unchanged.
+
+------------
+I/O Basics
+Streams
+Java programs perform I/O through streams. A stream is an abstraction that
+either produces or consumes information. A stream is linked to a physical
+device by the Java I/O system
+
+--------------------
+Generics
+What Are Generics?
+At its core, the term generics means parameterized types. Parameterized
+types are important because they enable you to create classes, interfaces,
+and methods in which the type of data upon which they operate is specified
+as a parameter.
+A class,
+interface, or method that operates on a parameterized type is called generic,
+as in generic class or generic method
+
+Bounded Types
+
+---------------------------------------
+Lambda Expressions:
+
+Key to understanding Java’s implementation of lambda expressions are two
+constructs. The first is the lambda expression itself. The second is the
+functional interface.
+
+A lambda expression is, essentially, an anonymous (that is, unnamed)
+method. However, this method is not executed on its own. Instead, it is used
+to implement a method defined by a functional interface. Thus, a lambda
+expression results in a form of anonymous class. Lambda expressions are
+also commonly referred to as closures.
+A functional interface is an interface that contains one and only one
+abstract method. Normally, this method specifies the intended purpose of
+the interface. Thus, a functional interface typically represents a single
+action. 
+
+As stated, a functional interface is an interface that specifies only one
+abstract method
+
+lambda operator or the arrow operator, is −>
+The −> can be verbalized as “becomes” or “goes to.”
+
+-------------
+
+Modules
+
+JDK 9 introduced a new and important feature called modules. Modules
+give you a way to describe the relationships and dependencies of the code
+that comprises an application.
+
+Modules also let you control which parts of a
+module are accessible to other modules and which are not. Through the use
+of modules you can create more reliable, scalable programs.
+
+As a general rule, modules are most helpful to large applications because
+they help reduce the management complexity often associated with a large
+software system. 
+
+
+
+------------------------------------
+
+Switch Expressions, Records,
+and Other Recently Added
+Features
+
+ Records
+• Patterns in instanceof
+• Enhancements to switch
+• Text blocks
+• Sealed classes and interfaces
+
+A record is designed to provide an efficient, easy-to-use way to hold
+a group of values. For example, you might use a record to hold a set of
+coordinates; bank account numbers and balances; the length, width, and
+height of a shipping container; and so on
+
+--------
+
+Exploring java.lang
+This chapter discusses classes and interfaces defined by java.lang
+Primitive Type Wrappers
+Number:The abstract class Number defines a superclass that is implemented by the
+classes that wrap the numeric types byte, short, int, long, float, and
+double. Number has abstract methods that return the value of the object in
+each of the different number formats. For example, doubleValue( ) returns
+the value as a double, floatValue( ) returns the value as a float, and so on.
+
+Void
+
+Runtime
+The Runtime class encapsulates the run-time environment.
+
+System
+
+Object
+ClassLoader
+Math
+
+ThreadLocal and InheritableThreadLocal
+Java defines two additional thread-related classes in java.lang:
+• ThreadLocal Used to create thread local variables. Each thread will
+have its own copy of a thread local variable.
+• InheritableThreadLoca
+
+----------------------------------------
+java.io
+This chapter explores java.io, which provides support for I/O operations.
+Chapter 13 presented an overview of Java’s I/O system, including basic
+techniques for reading and writing files, handling I/O exceptions, and
+closing a file. Here, we will examine the Java I/O system in greater detail.
+As all programmers learn early on, most programs cannot accomplish
+their goals without accessing external data. Data is retrieved from an input
+source. The results of a program are sent to an output destination. In Java,
+these sources or destinations are defined very broadly. For example, a
+network connection, memory buffer, or disk file can be manipulated by the
+Java I/O classes.
+
+Although physically different, these devices are all
+handled by the same abstraction: the stream. An I/O stream
+InputStream and OutputStream are designed for byte streams. Reader
+and Writer are designed for character streams. 
+
+
+-------------------------------------
+Exploring NIO(which is short for New I/O).
+
+Beginning with version 1.4, Java has provided a second I/O system called
+NIO (which is short for New I/O). It supports a buffer-oriented, channelbased approach to I/O operations.
+
+Beginning with version 1.4, Java has provided a second I/O system called
+NIO (which is short for New I/O). It supports a buffer-oriented, channelbased approach to I/O operations.
+
+The NIO system is built on two foundational items: buffers and channels. A
+buffer holds data. A channel represents an open connection to an I/O
+device, such as a file or a socket.
+
+------------------
+Networking
+
+Socket communication takes place via a protocol. Internet Protocol (IP)
+is a low-level routing protocol that breaks data into small packets and sends
+them to an address across a network, which does not guarantee to deliver
+said packets to the destination. Transmission Control Protocol (TCP) is a
+higher-level protocol that manages to robustly string together these packets,
+sorting and retransmitting them as necessary to reliably transmit data. A
+third protocol, User Datagram Protocol (UDP), sits next to TCP and can be
+used directly to support fast, connectionless, unreliable transport of packets.
+
+HttpClient
+HttpClient encapsulates the HTTP request/response mechanism
+
+HttpRequest
+HttpResponse
+
+
+----------
+Event Handling
+Event
+handling is fundamental to Java programming because it is integral to the
+creation of many kinds of applications. For example, any program that uses
+a graphical user interface, such as a Java application written for Windows,
+is event driven. Thus, you cannot write these types of programs without a
+solid command of event handling. Events are supported by a number of
+packages, including java.util, java.awt, and java.awt.event. Beginning
+with JDK 9, java.awt and java.awt.event are part of the java.desktop
+module, and java.util is part of the java.base module.
+
+This chapter begins with an overview of Java’s event handling
+mechanism. It then examines a number of event classes and interfaces used
+by the Abstract Window Toolkit (AWT). The AWT was Java’s first GUI
+framework, and it offers a simple way to present the basics of event
+handling. Next
+
+
+-------------
+
+AWT
+The Abstract Window Toolkit (AWT) was Java’s first GUI framework, and
+it has been part of Java since version 1.0.
+. It contains numerous classes and
+methods that allow you to create windows and simple controls.
+
+Using AWT Controls, Layout
+Managers, and Menus
+
+---------------.
+Images
+
+--------
+
+The Concurrency UtilitiesThe Concurrency Utilities
+
+The Concurrency Utilities
+
+• Synchronizers
+• Executors
+• Concurrent collections
+• The Fork/Join Framewor
+
+Using an Executor
+The concurrent API supplies a feature called an executor that initiates and
+controls the execution of threads.
+hat help manage and control the execution of threads
+
+
+----------------------------
+
+Stream
+e stream API: a
+stream is a conduit for data
+. Thus, a stream represents a sequence of
+objects. A stream operates on a data source, such as an array or a collection.
+A stream, itself, never provides storage for the data. It simply moves data,
+possibly filtering, sorting, or otherwise operating on that data in the
+process. As a general rule, however, a stream operation by itself does not
+modify the data source. For example, sorting a stream does not change the
+order of the source. Rather, sorting a stream results in the creation of a new
+stream that produces the sorted result.
+
+Reduction Operations
+Using Parallel Streams
+Mapping
+Collecting
+
+--------------------
+Regular Expressions:
+, a regular expression is a string of characters that
+describes a character sequence. This general description, called a pattern,
+can then be used to find matches in other character sequences. 
+There are two classes that support regular expression processing:
+Pattern and Matcher. These classes work together. Use Pattern to define
+a regular expression. Match the pattern against another sequence using
+Matcher.
+
+
+reflection 
+It allows you to analyze a software component and describe its capabilities
+dynamically, at run time rather than at compile time. For example, by using
+reflection, you can determine what methods, constructors, and fields a class
+supports.
+
+
+Remote Method Invocation
+Remote Method Invocation (RMI) allows a Java object that executes on
+one machine to invoke a method of a Java object that executes on another
+machine.
+
+--------------------------
+Introducing Swing
+n Part II, you saw how to build very simple user interfaces with the AWT
+classes. Although the AWT is still a crucial part of Java, its component set
+is no longer widely used to create graphical user interfaces. Today,
+programmers typically use Swing for this purpose. Swing is a framework
+that provides more powerful and flexible GUI components than does the
+AWT. As a result, it is the GUI that has been widely used by Java
+programmers for more than two decades.
+----------------------------------
+Java Beans use an architecture called JavaBeans
+that specifies how these building blocks can operate together.
+To better understand the value of Beans, consider the following:
+Hardware designers have a wide variety of components that can be
+integrated together to construct a system. Resistors, capacitors, and
+inductors are examples of simple building blocks. Integrated circuits
+provide more advanced functionality. All of these different parts can be
+reused. It is not necessary or possible to rebuild these capabilities each time
+a new system is needed. Also, the same pieces can be used in different
+types of circuits. This is possible because the behavior of these components
+is understood and documented.
+The software industry also sought the benefits of reusability and
+interoperability of a component-based approach. To realize these benefits, a
+component architecture is needed that allows programs to be assembled
+from software building blocks, perhaps provided by different vendors. It
+must also be possible for a designer to select a component, understand its
+capabilities, and incorporate it into an application. When a new version of a
+component becomes available, it should be easy to incorporate this
+functionality into existing code. JavaBeans provides just such an
+architecture.
+
+What Is a Java Bean?
+A Java Bean is a software component that has been designed to be reusable
+in a variety of different environments. There is no restriction on the
+capability of a Bean. It may perform a simple function, such as obtaining an
+inventory value, or a complex function, such as forecasting the performance
+of a stock portfolio. A Bean may be visible to an end user. One example of
+this is a button on a graphical user interface. A Bean may also be invisible
+to a user. Software to decode a stream of multimedia information in real
+time is an example of this type of building block. Finally, a Bean may be
+designed to work autonomously on a user’s workstation or to work in
+cooperation with a set of other distributed components. Software to
+generate a pie chart from a set of data points is an example of a Bean that
+can execute locally. However, a Bean that provides real-time price
+information from a stock or commodities exchange would need to work in
+cooperation with other distributed software to obtain its data.
+
+Advantages of Beans
+The following list enumerates some of the benefits that JavaBeans
+technology provides for a component developer:
+• A Bean obtains all the benefits of Java’s “write-once, run-anywhere”
+paradigm.
+• The properties, events, and methods of a Bean that are exposed to
+another application can be controlled.
+• Auxiliary software can be provided to help configure a Bean. This
+software is only needed when the design-time parameters for that
+component are being set. It does not need to be included in the runtime environment.
+• The state of a Bean can be saved in persistent storage and restored at a
+later time.
+• A Bean may register to receive events from other objects and can
+generate events that are sent to other objects.
+
+
+-----------------------------------------------
+Servlets
+Servlets are small
+programs that execute on the server side of a web connection.
+
+In order to understand the advantages of servlets, you must have a basic
+understanding of how web browsers and servers cooperate to provide
+content to a user. Consider a request for a static web page. A user enters a
+Uniform Resource Locator (URL) into a browser
+
+The Life Cycle of a Servlet
+Three methods are central to the life cycle of a servlet. These are init( ),
+service( ), and destroy( )
+
+Using Tomcat
+
+The HttpSession Interface
+
+The HttpSession interface enables a servlet to read and write the state
+information that is associated with an HTTP session
+
+The Cookie Class
+The Cookie class encapsulates a cookie. A cookie is stored on a client and
+contains state information. Cookies are valuable for tracking user activities.
+For example, assume that a user visits an online store. A cookie can save
+the user’s name, address, and other information. The user does not need to
+enter this data each time he or she visits the store.
+
+
+
