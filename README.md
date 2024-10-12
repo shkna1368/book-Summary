@@ -13,6 +13,7 @@
    
  <td>  <a href="1-Software%20Quality%20Engineering.txt"> A Guide to Software Quality Engineering </a> </td>
 
+<td>
   This comprehensive book takes you on a transformative journey </br>
 through the world of software quality engineering, providing </br>
 invaluable insights, practical methodologies, and expert advice that </br>
@@ -25,6 +26,8 @@ The book features the following points: </br>
 • Code Quality and Static Analysis </br>
 • Defect Management and Root Cause Analysis </br>
 • Release and Deployment Management  </br>
+</td>
+  
 </td>
 
 <td>
