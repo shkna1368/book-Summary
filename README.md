@@ -56,7 +56,7 @@ environment.
 </td>
 
 <td>
-    <a href="https:https://www.amazon.com/Java-Complete-Reference-Thirteenth/dp/1265058431"><img src="https://m.media-amazon.com/images/I/81UDSuaFAeL._SY466_.jpg" alt="Java complete refrence 13th edition" </a>
+    <a href="https://www.amazon.com/Java-Complete-Reference-Thirteenth/dp/1265058431"><img src="https://m.media-amazon.com/images/I/81UDSuaFAeL._SY466_.jpg" alt="Java complete refrence 13th edition" </a>
 
   </td
    
