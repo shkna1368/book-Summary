@@ -45,7 +45,7 @@ The book features the following points: </br>
 
 
    
-  <td>  <a href="2-JavaCompleteRefrence.txt"> Java complete refrence 13 edition </a> </td>
+  <td>  <a href="2-JavaCompleteRefrence.txt"> Java complete refrence 13th edition </a> </td>
 
    <td> 
 This book is a comprehensive guide to the Java language, describing its
@@ -56,7 +56,7 @@ environment.
 </td>
 
 <td>
-    <a href="https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416"><img src="https://m.media-amazon.com/images/I/61dvMaAzdNL._SY466_.jpg" alt=" A Guide to Software Quality Engineerin" </a>
+    <a href="[https:https://www.amazon.com/Java-Complete-Reference-Thirteenth/dp/1265058431"><img src="https://m.media-amazon.com/images/I/81UDSuaFAeL._SY466_.jpg" alt="Java complete refrence 13th edition" </a>
 
   </td
    
