@@ -13,9 +13,6 @@
    
  <td>  <a href="1-Software%20Quality%20Engineering.txt"> A Guide to Software Quality Engineering </a> </td>
 
-  <td>  <a href="2-Software%20Quality%20Engineering.txt"> Java complete Refrence </a> </td>
-
-   <td> 
   This comprehensive book takes you on a transformative journey </br>
 through the world of software quality engineering, providing </br>
 invaluable insights, practical methodologies, and expert advice that </br>
