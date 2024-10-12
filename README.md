@@ -13,7 +13,7 @@
    
  <td>  <a href="1-Software%20Quality%20Engineering.txt"> A Guide to Software Quality Engineering </a> </td>
 
- 
+  <td>  <a href="2-Software%20Quality%20Engineering.txt"> Java complete Refrence </a> </td>
 
    <td> 
   This comprehensive book takes you on a transformative journey </br>
@@ -36,6 +36,31 @@ The book features the following points: </br>
   </td
 
  
+ </tr>
+
+
+ <tr>
+
+ <td> 2 </td>
+
+
+   
+  <td>  <a href="1-Software%20Quality%20Engineering.txt"> Java complete refrence 13 edition </a> </td>
+
+  <td>  <a href="2-Software%20Quality%20Engineering.txt">Java complete refrence 13 edition </a> </td>
+   <td> 
+This book is a comprehensive guide to the Java language, describing its
+syntax, keywords, and fundamental programming principles. Significant
+portions of the Java API library are also examined. The book is divided into
+four parts, each focusing on a different aspect of the Java programming
+environment.
+</td>
+
+<td>
+    <a href="https://www.amazon.com/Guide-Software-Quality-Engineering/dp/1032694416"><img src="https://m.media-amazon.com/images/I/61dvMaAzdNL._SY466_.jpg" alt=" A Guide to Software Quality Engineerin" </a>
+
+  </td
+   
  </tr>
 
 
